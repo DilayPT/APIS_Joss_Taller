@@ -4,7 +4,7 @@ Este repositorio contiene una serie de proyectos prácticos diseñados para demo
 
 ## 🛠️ Proyectos Incluidos
 
-### 1. 🔍 Pokedex Pro (PokeAPI)
+### 1. 🔍 Pokedex Pro (PokemonAPI)
 Una enciclopedia Pokémon completa que permite explorar los 151 pokémon originales de Kanto.
 * **Funcionalidades:** Buscador en tiempo real por nombre, visualización de tipos, habilidades y estadísticas base (Ataque/HP).
 * **Tecnologías:** PokeAPI, CSS Grid responsivo, Async/Await.
