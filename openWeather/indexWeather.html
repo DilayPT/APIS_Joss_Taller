@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Modern</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="clima-card">
+        <div class="search-container">
+            <div class="input-group">
+                <input type="text" class="form-control search-input" placeholder="Buscar ciudad..." id="ciudad-input">
+                <button class="btn btn-search" id="buscar-btn"><i class="bi bi-search"></i></button>
+            </div>
+        </div>
+        <div class="clima-info text-center">
+            <img src="https://openweathermap.org/img/wn/01d@4x.png" class="clima-imagen" id="clima-icono">
+            <h1 class="temperatura" id="temperatura">--°C</h1>
+            <h2 class="ciudad-nombre" id="ciudad-nombre">Ciudad</h2>
+            <p id="tiempo-atmosferico" class="text-uppercase opacity-50">Esperando ciudad...</p>
+            <div class="detalles-container d-flex justify-content-around mt-4">
+                <div class="detalle-item">
+                    <p class="detalle-valor" id="humedad">--%</p>
+                    <p class="detalle-label">Humedad</p>
+                </div>
+                <div class="detalle-item">
+                    <p class="detalle-valor" id="viento">-- km/h</p>
+                    <p class="detalle-label">Viento</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="mainWeather.js"></script>>
+</body>
+</html>
